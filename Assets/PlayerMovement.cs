@@ -1,5 +1,6 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -13,8 +14,10 @@ public class PlayerMovement : MonoBehaviour
     BoxCollider2D bodyCollider;
     CapsuleCollider2D feetCollider;
 
-    bool isAlive = true;
     float gravityScaleAtStart;
+
+    [SerializeField] float jumpBufferTime = 0.2f; 
+    float jumpBufferCounter; 
 
     private void Awake()
     {
@@ -26,11 +29,10 @@ public class PlayerMovement : MonoBehaviour
     private void Start()
     {
         gravityScaleAtStart = rigidbody.gravityScale;
-        isAlive = true;
     }
+
     private void FixedUpdate()
     {
-        if (!isAlive) return;
         Run();
         FlipSprite();
         //ClimbLadder();
@@ -39,7 +41,6 @@ public class PlayerMovement : MonoBehaviour
 
     void OnMove(InputValue value)
     {
-        if (!isAlive) return;
         moveValue = value.Get<Vector2>();
     }
 
@@ -51,7 +52,6 @@ public class PlayerMovement : MonoBehaviour
 
     void OnJump(InputValue value)
     {
-        if (!isAlive) return;
         if (value.isPressed && feetCollider.IsTouchingLayers(LayerMask.GetMask("Ground")))
         {
             rigidbody.linearVelocity = new Vector2(rigidbody.linearVelocity.x, jumpSpeed);
@@ -91,6 +91,7 @@ public class PlayerMovement : MonoBehaviour
     //  Dying
     public void Die()
     {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         Debug.Log("Die");
     }
 }
