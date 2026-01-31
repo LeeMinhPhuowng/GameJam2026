@@ -33,8 +33,8 @@ public class PlayerMovement : MonoBehaviour
         if (!isAlive) return;
         Run();
         FlipSprite();
-        ClimbLadder();
-        Die();
+        //ClimbLadder();
+        //Die();
     }
 
     void OnMove(InputValue value)
