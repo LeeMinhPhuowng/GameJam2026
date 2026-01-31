@@ -1,0 +1,650 @@
+fileFormatVersion: 2
+guid: 12e94041584ee8a4784daf49c91f872f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7262292047166957969
+    second: Executioner_Attack_2_Sprite_Sheet_0
+  - first:
+      213: -5327582387370606451
+    second: Executioner_Attack_2_Sprite_Sheet_1
+  - first:
+      213: 4383083205050287538
+    second: Executioner_Attack_2_Sprite_Sheet_2
+  - first:
+      213: 6123316498826202057
+    second: Executioner_Attack_2_Sprite_Sheet_3
+  - first:
+      213: 2341850628775838735
+    second: Executioner_Attack_2_Sprite_Sheet_4
+  - first:
+      213: -1510077709689804945
+    second: Executioner_Attack_2_Sprite_Sheet_5
+  - first:
+      213: 7442422598929870493
+    second: Executioner_Attack_2_Sprite_Sheet_6
+  - first:
+      213: -8247585727407644735
+    second: Executioner_Attack_2_Sprite_Sheet_7
+  - first:
+      213: -5763383502581613122
+    second: Executioner_Attack_2_Sprite_Sheet_8
+  - first:
+      213: 7525686002131772639
+    second: Executioner_Attack_2_Sprite_Sheet_9
+  - first:
+      213: -4500890441380981639
+    second: Executioner_Attack_2_Sprite_Sheet_10
+  - first:
+      213: -1587699790928342590
+    second: Executioner_Attack_2_Sprite_Sheet_11
+  - first:
+      213: -3930772313991061230
+    second: Executioner_Attack_2_Sprite_Sheet_12
+  - first:
+      213: -2441221431803275068
+    second: Executioner_Attack_2_Sprite_Sheet_13
+  - first:
+      213: 350325120942889954
+    second: Executioner_Attack_2_Sprite_Sheet_14
+  - first:
+      213: -8518158793028941380
+    second: Executioner_Attack_2_Sprite_Sheet_15
+  - first:
+      213: 9003661046525182961
+    second: Executioner_Attack_2_Sprite_Sheet_16
+  - first:
+      213: -4608059487302640623
+    second: Executioner_Attack_2_Sprite_Sheet_17
+  - first:
+      213: -7204786588774575422
+    second: Executioner_Attack_2_Sprite_Sheet_18
+  - first:
+      213: -6679219995822140353
+    second: Executioner_Attack_2_Sprite_Sheet_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Executioner_Attack_2_Sprite_Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 14
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6618714cd7273b90800000000000000
+      internalID: -7262292047166957969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Executioner_Attack_2_Sprite_Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 24
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d80c521ab00a016b0800000000000000
+      internalID: -5327582387370606451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Executioner_Attack_2_Sprite_Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 14
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b5c002d3f6d3dc30800000000000000
+      internalID: 4383083205050287538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Executioner_Attack_2_Sprite_Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 14
+        width: 23
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cb03d7b9e36af450800000000000000
+      internalID: 6123316498826202057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Executioner_Attack_2_Sprite_Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 14
+        width: 47
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f04853d3dbcef7020800000000000000
+      internalID: 2341850628775838735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Executioner_Attack_2_Sprite_Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 0
+        width: 67
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6724b2e2502b0be0800000000000000
+      internalID: -1510077709689804945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Executioner_Attack_2_Sprite_Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 2
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9eed8d0cebc84760800000000000000
+      internalID: 7442422598929870493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Executioner_Attack_2_Sprite_Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 11
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cf194f7a70ba8d80800000000000000
+      internalID: -8247585727407644735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Executioner_Attack_2_Sprite_Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 9
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebdb6487d395400b0800000000000000
+      internalID: -5763383502581613122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Executioner_Attack_2_Sprite_Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 3
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd4a130db8b907860800000000000000
+      internalID: 7525686002131772639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Executioner_Attack_2_Sprite_Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 9
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97419848dff9981c0800000000000000
+      internalID: -4500890441380981639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Executioner_Attack_2_Sprite_Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 14
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c111cfb37b57f9e0800000000000000
+      internalID: -1587699790928342590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Executioner_Attack_2_Sprite_Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 15
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2116f9318671379c0800000000000000
+      internalID: -3930772313991061230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Executioner_Attack_2_Sprite_Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 14
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c89b4bba0a0f1ed0800000000000000
+      internalID: -2441221431803275068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Executioner_Attack_2_Sprite_Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 14
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eb52b567da9cd400800000000000000
+      internalID: 350325120942889954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Executioner_Attack_2_Sprite_Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 14
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb9c32975bb69c980800000000000000
+      internalID: -8518158793028941380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Executioner_Attack_2_Sprite_Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 14
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f3c724b40e63fc70800000000000000
+      internalID: 9003661046525182961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Executioner_Attack_2_Sprite_Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 24
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11c15739f42ec00c0800000000000000
+      internalID: -4608059487302640623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Executioner_Attack_2_Sprite_Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 2
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c2d79525c4730c90800000000000000
+      internalID: -7204786588774575422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Executioner_Attack_2_Sprite_Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 1
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f34d5544dc4ae43a0800000000000000
+      internalID: -6679219995822140353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Executioner_Attack_2_Sprite_Sheet_0: -7262292047166957969
+      Executioner_Attack_2_Sprite_Sheet_1: -5327582387370606451
+      Executioner_Attack_2_Sprite_Sheet_10: -4500890441380981639
+      Executioner_Attack_2_Sprite_Sheet_11: -1587699790928342590
+      Executioner_Attack_2_Sprite_Sheet_12: -3930772313991061230
+      Executioner_Attack_2_Sprite_Sheet_13: -2441221431803275068
+      Executioner_Attack_2_Sprite_Sheet_14: 350325120942889954
+      Executioner_Attack_2_Sprite_Sheet_15: -8518158793028941380
+      Executioner_Attack_2_Sprite_Sheet_16: 9003661046525182961
+      Executioner_Attack_2_Sprite_Sheet_17: -4608059487302640623
+      Executioner_Attack_2_Sprite_Sheet_18: -7204786588774575422
+      Executioner_Attack_2_Sprite_Sheet_19: -6679219995822140353
+      Executioner_Attack_2_Sprite_Sheet_2: 4383083205050287538
+      Executioner_Attack_2_Sprite_Sheet_3: 6123316498826202057
+      Executioner_Attack_2_Sprite_Sheet_4: 2341850628775838735
+      Executioner_Attack_2_Sprite_Sheet_5: -1510077709689804945
+      Executioner_Attack_2_Sprite_Sheet_6: 7442422598929870493
+      Executioner_Attack_2_Sprite_Sheet_7: -8247585727407644735
+      Executioner_Attack_2_Sprite_Sheet_8: -5763383502581613122
+      Executioner_Attack_2_Sprite_Sheet_9: 7525686002131772639
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
