@@ -9,6 +9,7 @@ TagManager:
   - Layer3
   - Layer4
   - Layer5
+  - Spikes
   layers:
   - Default
   - TransparentFX
@@ -16,8 +17,8 @@ TagManager:
   - Ground
   - Water
   - UI
-  - 
-  - 
+  - Ladder
+  - Spikes
   - 
   - 
   - 

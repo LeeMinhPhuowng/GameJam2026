@@ -16,9 +16,6 @@ public class PlayerMovement : MonoBehaviour
 
     float gravityScaleAtStart;
 
-    [SerializeField] float jumpBufferTime = 0.2f; 
-    float jumpBufferCounter; 
-
     private void Awake()
     {
         rigidbody = GetComponent<Rigidbody2D>();
@@ -35,7 +32,7 @@ public class PlayerMovement : MonoBehaviour
     {
         Run();
         FlipSprite();
-        //ClimbLadder();
+        ClimbLadder();
         //Die();
     }
 
@@ -78,14 +75,11 @@ public class PlayerMovement : MonoBehaviour
         if (!feetCollider.IsTouchingLayers(LayerMask.GetMask("Ladder")))
         {
             rigidbody.gravityScale = gravityScaleAtStart;
-            animator.SetBool("isClimbing", false);
             return;
         }
         Vector2 playerlinearVelocity = new Vector2(rigidbody.linearVelocity.x, moveValue.y * climbSpeed);
         rigidbody.linearVelocity = playerlinearVelocity;
         rigidbody.gravityScale = 0f;
-        bool hasVerticalSpeed = Mathf.Abs(rigidbody.linearVelocity.y) > Mathf.Epsilon;
-        animator.SetBool("isClimbing", hasVerticalSpeed);
     }
 
     //  Dying
@@ -94,4 +88,6 @@ public class PlayerMovement : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         Debug.Log("Die");
     }
+
+
 }

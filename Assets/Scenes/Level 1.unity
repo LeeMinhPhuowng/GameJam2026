@@ -300,6 +300,7 @@ MonoBehaviour:
   runSpeed: 7
   jumpSpeed: 7
   climbSpeed: 0.1
+  jumpBufferTime: 0.2
 --- !u!114 &33148649
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5139,6 +5140,10 @@ PrefabInstance:
     - target: {fileID: 4359778046067285122, guid: 3a425b9a6f388bc4aaf5639e87b59a97, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5396426424986597359, guid: 3a425b9a6f388bc4aaf5639e87b59a97, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

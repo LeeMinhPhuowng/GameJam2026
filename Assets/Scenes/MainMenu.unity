@@ -466,8 +466,8 @@ MonoBehaviour:
   m_FillRect: {fileID: 631587391}
   m_HandleRect: {fileID: 1155086752}
   m_Direction: 0
-  m_MinValue: -1
-  m_MaxValue: 1
+  m_MinValue: -1.5
+  m_MaxValue: 0
   m_WholeNumbers: 0
   m_Value: 0
   m_OnValueChanged:
@@ -2908,7 +2908,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   verticalSlider: {fileID: 1500508855}
   horizontalSlider: {fileID: 94963142}
-  moveValue: 20
+  moveValue: 15
 --- !u!4 &867112505
 Transform:
   m_ObjectHideFlags: 0
@@ -4648,8 +4648,8 @@ MonoBehaviour:
   m_FillRect: {fileID: 1098592292}
   m_HandleRect: {fileID: 168956926}
   m_Direction: 0
-  m_MinValue: -1
-  m_MaxValue: 1
+  m_MinValue: 0
+  m_MaxValue: 0.6
   m_WholeNumbers: 0
   m_Value: 0
   m_OnValueChanged:

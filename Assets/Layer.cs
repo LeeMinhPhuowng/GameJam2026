@@ -45,4 +45,10 @@ public class Layer : MonoBehaviour
             vertical * LayerManager.Instance.moveValue
         );
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (!this.gameObject.CompareTag("Spikes")) return;
+        if (collision.gameObject.CompareTag("Player")) GameManager.Instance.OnReplayButtonClicked();
+    }
 }
