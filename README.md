@@ -1,4 +1,4 @@
-# WorldMask - Game Jam 2026 (Theme: MASK)
+# WorldMask - Game Jam 2026
 
 ## About
 A game made for **Game Jam 2026** with the theme **MASK**.
